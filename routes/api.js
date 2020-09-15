@@ -1,7 +1,6 @@
 const Workout = require("../models/workout.js");
 const { mongo } = require("mongoose");
 
-// returns all workouts in descending order
 module.exports = function (app) {
     app.get("/api/workouts", function (req, res) {
         Workout.find({})
@@ -27,7 +26,7 @@ module.exports = function (app) {
             });
     });
 
-    // creates a workout
+    
     app.post("/api/workouts", function (req, res) {
         Workout.create(data = {
             day: new Date(),
@@ -41,7 +40,7 @@ module.exports = function (app) {
             })
     });
 
-    // updates a given workout by pushing a workout to its exercises array
+    
     app.put("/api/workouts/:id", function (req, res) {
         Workout.update(
             {

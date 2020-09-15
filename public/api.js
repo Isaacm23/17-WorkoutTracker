@@ -31,3 +31,14 @@ const API = {
     });
 
     const json = await res.json();
+
+    return json;
+  },
+
+  async getWorkoutsInRange() {
+    const res = await fetch(`/api/workouts/range`);
+    const json = await res.json();
+
+    return json;
+  },
+};
