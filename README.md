@@ -22,4 +22,4 @@ The user should be able to:
 
   * View multiple the combined weight of multiple exercises on the `stats` page.
 
-![](img/workouttracc.gif)
+![](public/img/workouttracc.gif)
