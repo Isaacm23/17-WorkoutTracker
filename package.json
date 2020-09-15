@@ -1,0 +1,24 @@
+{
+  "name": "17-workouttracker",
+  "version": "1.0.0",
+  "description": "For this assignment, you'll create a workout tracker. You have already been provided with the front end code in the `Develop` folder. This assignment will require you to create Mongo database with a Mongoose schema and handle routes with Express.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Isaacm23/17-WorkoutTracker.git"
+  },
+  "author": "Isaac Mckittrick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Isaacm23/17-WorkoutTracker/issues"
+  },
+  "homepage": "https://github.com/Isaacm23/17-WorkoutTracker#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.5",
+    "morgan": "^1.10.0"
+  }
+}
