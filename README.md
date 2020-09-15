@@ -22,3 +22,4 @@ The user should be able to:
 
   * View multiple the combined weight of multiple exercises on the `stats` page.
 
+![Farmers Market Finder Demo](img/workouttracc.gif)
